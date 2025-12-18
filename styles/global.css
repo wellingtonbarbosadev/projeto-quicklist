@@ -9,6 +9,10 @@ a {
     color: inherit;
 }
 
+li {
+    list-style: none;
+}
+
 :root {
     --background-primary: #F4F5FB;
     --background-secondary: #FFFFFF;
