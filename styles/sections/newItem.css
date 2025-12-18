@@ -9,6 +9,7 @@
         border-radius: .75rem;
     }
     input[type='text'] {
+        transition: border .2s;
         flex: 2;
         font: var(--input);
         background-color: var(--background-secondary);
@@ -17,6 +18,15 @@
 
         &::placeholder {
             color: var(--content-tertiary);
+        }
+
+        &:hover {
+            border: 2px solid var(--border-hover);
+        }
+
+        &:focus {
+            border: 2px solid var(--color-brand);
+            color: var(--content-primary);
         }
     }
 
