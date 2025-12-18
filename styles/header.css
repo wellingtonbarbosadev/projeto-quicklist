@@ -1,0 +1,11 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.56rem;
+    margin-bottom: 3.875rem;
+
+    img {
+        height: 40px;
+    }
+}
