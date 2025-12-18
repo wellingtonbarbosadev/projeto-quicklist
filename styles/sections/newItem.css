@@ -3,6 +3,8 @@
     gap: 1rem;
     margin-block: 2.5rem;
 
+    
+
     input, button {
         all: unset;
         height: 2.75rem;
@@ -42,6 +44,20 @@
         &:hover {
             background-color: var(--color-brand-hover);
             cursor: pointer;
+        }
+    }
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+
+        input[type='text'],
+        button {
+            flex: none;
+        }
+
+        button {
+            width: 100%;
+            max-width: none;
         }
     }
 }
