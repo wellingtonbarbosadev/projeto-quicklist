@@ -1,6 +1,7 @@
 @import url(global.css);
 @import url(header.css);
 @import url(utility.css);
+@import url(footer.css);
 @import url(sections/heading.css);
 @import url(sections/newItem.css);
 @import url(sections/itemsList.css);

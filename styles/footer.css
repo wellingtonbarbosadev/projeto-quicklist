@@ -1,0 +1,43 @@
+footer {
+    margin-top: 2.25rem;
+    div {
+        font: var(--label);
+        color: var(--always-white);
+        background-color: var(--color-danger);
+        padding: .75rem;
+        border-radius: .75rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span::before {
+            content: "s";
+            display: inline-block;
+            width: 1.25rem;
+            height: 1.25rem;
+            mask: url(../assets/icons/warning-circle-filled.svg);
+            mask-position: center;
+            mask-size: contain;
+            mask-repeat: no-repeat;
+            background-color: var(--always-white);
+            margin-right: .5rem;
+
+        }
+
+        button {
+            all: unset;
+            width: 1.25rem;
+            height: 1.25rem;
+            mask: url(../assets/icons/delete-small.svg);
+            background-color: var(--always-white);
+            mask-size: cover;
+            mask-repeat: no-repeat;
+            mask-position: center;
+            
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
