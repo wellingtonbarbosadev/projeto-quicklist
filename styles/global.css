@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 :root {
     --background-primary: #F4F5FB;
     --background-secondary: #FFFFFF;
@@ -29,4 +34,5 @@
 
 body {
     background-color: var(--background-primary);
+    font-family: var(--font-family);
 }
