@@ -1,78 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="styles/index.css">
-    <title>QuickList</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles/index.css">
+  <title>QuickList</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <a href="#"><img src="assets/img/logo.svg" alt="QuickList Logo"></a>
-    </header>
-    <main class="container">
-        <section id="heading">
-            <a href="#">
-                <span>Voltar</span>
-            </a>
-            <h1>Compras da semana</h1>
-        </section>
+  <header>
+    <a href="#"><img src="assets/img/logo.svg" alt="QuickList Logo"></a>
+  </header>
+  <main class="container">
+    <section id="heading">
+      <a href="#">
+        <span>Voltar</span>
+      </a>
+      <h1>Compras da semana</h1>
+    </section>
 
-        <section id="newItem">
-            <form action="">
-                <input type="text" placeholder="Adicione um novo item" required>
-                <button type="submit">Adicionar item</button>
-            </form>
-        </section>
+    <section id="newItem">
+      <form action="">
+        <input type="text" placeholder="Adicione um novo item" required>
+        <button type="submit">Adicionar item</button>
+      </form>
+    </section>
 
-        <section id="itemsList">
-            <ul>
-                <li>
-                    <label>
-                        <input type="checkbox" name="paoDeForma" id="paoDeForma">
-                        <span>Pão de forma</span>
-                        <button>
-                            <img src="assets/icons/trash.svg" alt="">
-                        </button>
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="checkbox" name="cafePreto" id="cafePreto">
-                        <span>Café preto</span>
-                        <button>
-                            <img src="assets/icons/trash.svg" alt="">
-                        </button>
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="checkbox" name="sucoDeLaranja" id="sucoDeLaranja">
-                        <span>Suco de laranja</span>
-                        <button>
-                            <img src="assets/icons/trash.svg" alt="">
-                        </button>
-                    </label>
-                </li>
-                <li>
-                    <label>
-                        <input type="checkbox" name="bolacha" id="bolacha">
-                        <span>Bolacha</span>
-                        <button>
-                            <img src="assets/icons/trash.svg" alt="">
-                        </button>
-                    </label>
-                </li>
-            </ul>
-    </main>
-    <footer class="container hidden">
-        <div>
-            <span>O item foi removido da lista</span>
-            <button></button>
-        </div>
-    </footer>
+    <section id="itemsList">
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" name="paoDeForma" id="paoDeForma">
+            <span>Pão de forma</span>
+            <button>
+              <img src="assets/icons/trash.svg" alt="">
+            </button>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="cafePreto" id="cafePreto">
+            <span>Café preto</span>
+            <button>
+              <img src="assets/icons/trash.svg" alt="">
+            </button>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="sucoDeLaranja" id="sucoDeLaranja">
+            <span>Suco de laranja</span>
+            <button>
+              <img src="assets/icons/trash.svg" alt="">
+            </button>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" name="bolacha" id="bolacha">
+            <span>Bolacha</span>
+            <button>
+              <img src="assets/icons/trash.svg" alt="">
+            </button>
+          </label>
+        </li>
+      </ul>
+  </main>
+  <footer class="container hidden" id="warning">
+    <div>
+      <span>O item foi removido da lista</span>
+      <button></button>
+    </div>
+  </footer>
+  <script src="scripts/scripts.js"></script>
 </body>
+
 </html>

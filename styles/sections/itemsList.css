@@ -25,6 +25,8 @@
 
             &:has(:checked) {
                 span {
+                    text-decoration: line-through;
+                    color: var(--content-tertiary);
                     &::before {
                         background-color: var(--color-brand);
                         background-image: url(../../assets/icons/check.svg);
